@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'iviSans bold'; 
+	src: url(../fonts/iviSans/iviSans-Bold.otf); 
+}
+@font-face {
+	font-family: 'iviSans Medium'; 
+	src: url(../fonts/iviSans/iviSans-Medium.otf); 
+}
+@font-face {
+	font-family: 'iviSans Regular'; 
+	src: url(../fonts/iviSans/iviSans-Regular.otf); 
+}
+body{
+    background-color: rgb(16,14,25);
+}
+/* Логотип */
+.logo-image{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 160px;
+}
+/* Верхние кнопки */
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+.link{
+    margin-left: 15px;
+    margin-right: 15px; 
+    text-decoration: none;
+    font-family: 'iviSans Regular';
+    font-size: 20px;
+}
+.link:link{
+    color: rgba(255, 255, 255, 0.48);
+}
+.link:visited{
+    color: rgba(255, 255, 255, 0.48);
+}
+.link:hover{
+    color: white;
+}
+.news-text{
+    margin-top: 200px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    color:rgba(255, 255, 255, 0.48);
+    font-family: 'iviSans Regular';
+    font-size: 20px;
+}
+.contact-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+.block{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 300px;
+    text-align: center;
+}
+.description-block{
+    margin-top: 300px;
+    width: 1200px;
+}

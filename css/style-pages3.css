@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'iviSans bold'; 
+	src: url(../fonts/iviSans/iviSans-Bold.otf); 
+}
+@font-face {
+	font-family: 'iviSans Medium'; 
+	src: url(../fonts/iviSans/iviSans-Medium.otf); 
+}
+@font-face {
+	font-family: 'iviSans Regular'; 
+	src: url(../fonts/iviSans/iviSans-Regular.otf); 
+}
+body{
+    background-color: rgb(16,14,25);
+}
+/* Логотип */
+.logo-image{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 160px;
+}
+/* Блок с фильмами */
+.serials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.serial-bar{
+    display: flex;
+    margin-top: 98px;
+    flex-direction: column;
+}
+.serial{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.serial-image{
+    width: 150px;
+    border-radius: 10px;
+}
+.text-image{
+    font-family: 'iviSans Medium';
+    color:  rgb(217, 215, 224);
+    font-size: 15px;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-category{
+    margin-left: 337px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'iviSans bold';
+    font-size: 40px;
+    font-weight: bolt;
+}
+.text-description{
+    margin-left: 337px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.48);;
+    font-family: 'iviSans Regular';
+    font-size: 15px;
+    width: 900px;
+}
+/* Верхние кнопки */
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+.link{
+    margin-left: 15px;
+    margin-right: 15px; 
+    text-decoration: none;
+    font-family: 'iviSans Regular';
+    font-size: 20px;
+}
+.link:link{
+    color: rgba(255, 255, 255, 0.48);
+}
+.link:visited{
+    color: rgba(255, 255, 255, 0.48);
+}
+.link:hover{
+    color: white;
+}

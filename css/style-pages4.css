@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'iviSans bold'; 
+	src: url(../fonts/iviSans/iviSans-Bold.otf); 
+}
+@font-face {
+	font-family: 'iviSans Medium'; 
+	src: url(../fonts/iviSans/iviSans-Medium.otf); 
+}
+@font-face {
+	font-family: 'iviSans Regular'; 
+	src: url(../fonts/iviSans/iviSans-Regular.otf); 
+}
+body{
+    background-color: rgb(16,14,25);
+}
+/* Логотип */
+.logo-image{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 160px;
+}
+.main-block{
+    background: rgb(31,27,46);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 900px;
+    height: 700px;
+}
+.head-block{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.flex-box-img{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.flex-box-text-img{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 46px;
+}
+.text-name{
+    color: rgb(217, 215, 224);
+    font-family: 'iviSans bold';
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text-type{
+    color: rgb(217, 215, 224);
+    font-family: 'iviSans Regular';
+    font-size: 15px;
+}
+.body-block{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.body-block-img{
+    width: 800px;
+}
+.footer-block{
+    display: flex;
+    flex-direction: row;
+}
+.footer-left-block{
+    display: flex;
+    flex-direction: column;
+}
+.footer-name-film{
+    color: rgb(217, 215, 224);
+    font-family: 'iviSans bold';
+    font-size: 30px;
+    padding-left: 48px;
+    padding-top: 10px;
+}
+.button-block{
+    display: flex;
+    flex-direction: row;
+}
+.button-trailer-block{
+    padding-left: 48px;
+    padding-top: 20px;
+}
+a.button-trailer {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: 8px 40px;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    color: rgb(217, 215, 224);
+    font-family: 'iviSans Regular';
+    font-size: 15px;
+    width:min-content;
+  } 
+  a.button-trailer:hover { background: rgba(255,255,255,.2); }
+  a.button-trailer:active { background: white; }
+a.button-share {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: 8px 40px;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    color: rgb(217, 215, 224);
+    font-family: 'iviSans Regular';
+    font-size: 15px;
+    width:min-content;
+  } 
+  a.button-share:hover { background: rgba(255,255,255,.2); }
+  a.button-share:active { background: white; }
+.button-share-block{
+    padding-left: 48px;
+    padding-top: 20px;
+}
+.footer-right-block{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 350px;
+}
+.description-film{
+    color: rgb(217, 215, 224);
+    font-family: 'iviSans Regular';
+    font-size: 15px;
+}
+/* Верхние кнопки */
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+.link{
+    margin-left: 15px;
+    margin-right: 15px; 
+    text-decoration: none;
+    font-family: 'iviSans Regular';
+    font-size: 20px;
+}
+.link:link{
+    color: rgba(255, 255, 255, 0.48);
+}
+.link:visited{
+    color: rgba(255, 255, 255, 0.48);
+}
+.link:hover{
+    color: white;
+}
